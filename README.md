@@ -1,3 +1,21 @@
+How to Clone this project?
+Step1: open your terminal and write this command 
+git clone https://github.com/AMoeez1/School.git
+
+Step2: Install dependencies write this command
+composer install
+
+Step 3: copy .env.example file to create .env file write this
+cp .env.example .env
+
+Step 4: Generate your key by writing this command
+php artisan key:generate
+
+Step 5: Run the migration
+php artisan migrate
+
+project is ready to run :)
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
